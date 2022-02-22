@@ -1,0 +1,41 @@
+html, body {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+main h2 {
+    font-size: 32px;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    color: khaki;
+    background-image: url("/Users/macosx/Documents/Projects/Dasmoto's Arts & Crafts/resources/pattern.webp");
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+.frames h2 {
+    background-color: lightcoral;
+}
+
+.paint h2 {
+    background-color: skyblue;
+}
+
+
+.brushes p, .frames p, .paint p {
+    display: inline-block;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.blue {
+    color: blue;
+    padding: 4px;
+}
